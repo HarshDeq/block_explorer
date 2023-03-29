@@ -1,0 +1,19 @@
+
+
+.flex{
+    display: flex;
+
+    &--jsutify-content{
+        &__space{
+            &--between{
+                justify-content: space-between;
+            }
+            &--around{
+                justify-content: space-around;
+            }
+            &--evenly{
+                justify-content: space-evenly;
+            }
+        }
+    }
+}

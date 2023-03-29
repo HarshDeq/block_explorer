@@ -1,0 +1,25 @@
+.block{
+    padding: 1rem;
+    font-size: 1.1rem;
+
+    &:not(:last-child){
+        border-bottom:.1rem solid rgba($color-grey-dark ,.3);
+    }
+    &__section{
+        &-1{
+
+            &--logo{
+                margin-right: .5rem;
+            }
+            &--blocknumber{
+                line-height: 2;
+            }
+            &--timeStamp{
+                line-height: 2;
+            }
+        }
+    }
+
+}
+
+

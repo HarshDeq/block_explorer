@@ -1,0 +1,19 @@
+.header{
+    background-color:$color-white !important;
+    color:$color-black !important ;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    &__container{
+        &__logo{
+            &-logo{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.body__container{
+    margin-top: 3.9rem;
+    
+}

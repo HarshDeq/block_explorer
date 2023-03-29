@@ -1,0 +1,16 @@
+
+  .loading-spinner {
+    width: 3rem;
+    height: 3rem;
+    border: .6rem solid #717070; 
+    border-top: .6rem solid #020202; 
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+
+  .spinner-center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
